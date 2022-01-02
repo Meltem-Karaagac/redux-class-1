@@ -12,17 +12,16 @@ const TodoList = () => {
   };
   return (
     <div>
-      <ul>
+      <div>
         {list.map((todo) => (
           <TodoItem key={todo.id} {...todo} />
         ))}
-      </ul>
-      <button
-        onClick={handleClearList}
-        className="clear-button"
-      >
-        Clear
-      </button>
+      </div>
+      <div className="clear-wrapper">
+        <button onClick={handleClearList} className="clear-button">
+          Clear
+        </button>
+      </div>
     </div>
   );
 };

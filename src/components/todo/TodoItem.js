@@ -37,7 +37,6 @@ const TodoItem = ({ completed, text, id }) => {
           <img
             src={deleteLogo}
             className="delete-logo"
-            // style={{ width: "40px", margin: "10px", cursor: "pointer" }}
             alt="delete logo"
             onClick={handleDelete}
           />

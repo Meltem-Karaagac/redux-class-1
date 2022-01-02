@@ -28,7 +28,13 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin: 3px;
+  margin: 10px;
+}
+
+.clear-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clear-button {
